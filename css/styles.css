@@ -11044,3 +11044,23 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+/* 1. Dark-blue “star” horizontal rule */
+hr.star-primary {
+  border-top-color: #2C3E50;      /* dark blue */
+}
+hr.star-primary:after {
+  color: #2C3E50;                 /* star itself */
+  background-color: #fff;         /* keep white behind the star */
+}
+
+/* 2. Dark-blue “X” close-button lines in portfolio modals */
+.portfolio-modal .close-modal .lr,
+.portfolio-modal .close-modal .rl {
+  background-color: #2C3E50;      /* dark blue */
+}
+
+/* 3. Dark-blue footer panels */
+footer .footer-above,
+footer .footer-below {
+  background-color: #2C3E50;      /* dark blue */
+}
